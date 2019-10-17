@@ -26,6 +26,7 @@ class CreateEmployeesTable extends Migration
             $table->string("car_brand")->nullable();
             $table->string("plate_no")->nullable();
             $table->timestamps();
+            $table->string('user');
         });
     }
 

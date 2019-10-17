@@ -24,6 +24,7 @@ class CreateJobAssignmentsTable extends Migration
             $table->string('time_to');
             $table->string('description');
             $table->timestamps();
+            $table->string('user');
         });
     }
 
