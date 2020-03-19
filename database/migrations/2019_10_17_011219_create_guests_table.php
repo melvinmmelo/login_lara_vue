@@ -28,7 +28,6 @@ class CreateGuestsTable extends Migration
             $table->string('email')->nullable();
             $table->string('birth_date')->nullable();
             $table->boolean('tax_exempted')->nullable();
-            $table->string('remarks')->nullable();
             $table->string('concierge')->nullable();
             $table->string('country')->nullable();
             $table->string('zip')->nullable();
